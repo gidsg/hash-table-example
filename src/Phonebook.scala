@@ -9,11 +9,16 @@ object Phonebook {
 
     println( "Keys in phonebook : " + phoneBook.keys )
     println( "Values in phonebook : " + phoneBook.values )
+
     println( "Check if phonebook is empty : " + phoneBook.isEmpty )
+
+    //lookup
+    if(phoneBook.contains("Chris Spranklen")){
+      println("Chris Spranklen is in the phonebook with value: "  + phoneBook("Chris Spranklen"))
+    }else{
+      println("Chris Spranklen not found")
+    }
+
   }
-
-
-
-
 
 }
