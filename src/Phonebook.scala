@@ -5,11 +5,10 @@ object Phonebook {
     // Empty hash table whose keys are strings and values are strings:
     var phoneBook:Map[String,String] = Map()
 
-    phoneBook= Map("Chris Spranklen" -> "07957 450504", "Tom Goodhew" -> "07841 472562")
+    phoneBook= Map("Chris Spranklen" -> "0123 456789", "Tom Goodhew" -> "456 789123")
 
     println( "Keys in phonebook : " + phoneBook.keys )
     println( "Values in phonebook : " + phoneBook.values )
-
     println( "Check if phonebook is empty : " + phoneBook.isEmpty )
 
     //lookup
