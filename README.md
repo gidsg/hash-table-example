@@ -1,4 +1,4 @@
 hash-map-example
 ================
 
-Hash Map example using Scala
+Hash Table example using Scala
